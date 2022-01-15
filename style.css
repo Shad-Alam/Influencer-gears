@@ -1,0 +1,466 @@
+/* fonts */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+section{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+/* heading style */
+.tittle{
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+}
+/* main part */
+/* <!-- initial part style --> */
+.section-1{
+    margin-bottom: 69px;
+}
+.header1{
+    font-size: 52px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 582px;
+}
+
+p{
+    text-align: justify;
+}
+
+.influencer{
+    display: flex;
+    align-items: center;
+}
+.influencer-up{
+    display: none;
+    width: 440px;
+    padding-left: 133px;
+}
+.influencer-down{
+    width: 440px;
+    padding-left: 133px;
+}
+
+.button-1{
+    background: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 41px;
+}
+
+.fa-arrow-right{
+    padding-left: 8px;
+}
+
+
+/*
+--------------------------------
+--------------------------------
+--------------------------------
+---- popular collection style---
+--------------------------------
+--------------------------------
+--------------------------------
+*/
+
+.header-3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    text-align: center;
+    color: #3A3A3A;
+}
+
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    width: 329px;
+    height: 476px;
+    left: 196px;
+    top: 1035px;
+
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.product img{
+    width: 300px;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.product h4,h5,h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.product h4{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.product h5{
+    margin-top: 6px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.product h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    display: flex;
+    letter-spacing: 0.018em;
+    color: #787885;
+}
+
+.product .h6-last{
+    margin-bottom: 17px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    width: 122px;
+    height: 32px;
+    left: 210px;
+    bottom: 1868px;
+}
+
+.fa-star, .fa-star-half-alt{
+    font-size: 13px;
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+
+.rating{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #5E6366;
+    margin-left: 8px;
+}
+
+.see-more{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.see-more button{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/*
+--------------------------------
+--------------------------------
+--------------------------------
+--------- footer part ----------
+--------------------------------
+--------------------------------
+--------------------------------
+*/
+footer{
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+    background-size: cover;
+}
+
+.footer-1{
+    padding-top: 50px;
+}
+
+.footer-1 h1, h6{
+    color: white;
+    text-align: center;
+}
+
+.footer-1 h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.footer-1 h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+}
+
+
+.social-link{
+    margin-top: 17px;
+    color: white;
+    text-align: center;
+}
+
+.social-link .style-1{
+    padding-right: 16px;
+}
+
+.social-link .fa-telegram-plane{
+    padding-right: 0px;
+}
+
+/* media qurey for responsive */
+@media only screen and (max-width: 688px){
+    .tittle{
+        margin: 0px;
+        margin-top: 35px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    section{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section-1{
+        margin-bottom: 8px;
+    }
+    .header1{
+        font-size: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    
+    p{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .influencer{
+        width: 100%;
+        display:block;
+        justify-content: center;
+    }
+
+    .influencer-1{
+        width: 100%;
+        align-items: center;
+    }
+
+    .influencer-1 h1{
+        text-align: center;
+    }
+    .influencer-up{
+        display: block;
+        width: 55%;
+        margin-bottom: 14px;
+        margin-top: 22px;
+        padding-left: 90px;
+    }
+
+    .influencer-up-1{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .influencer-down{
+        display: none;
+    }
+    
+    .button-1{
+        background: #E02C6D;
+        color: white;
+        padding: 10px 24px;
+        font-size: 16px;
+        border: 1px solid white;
+        border-radius: 41px;
+        margin-left: 18px;
+    }
+    
+    .fa-arrow-right{
+        padding-left: 8px;
+    }
+
+    .popular-collection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        width: 100%;
+        height: 211px;
+        background-color: #0A0826;
+        background-size: cover;
+    }
+
+    .footer-1{
+        padding-top: 50px;
+        margin-left: 68px;
+        margin-right: 68px;
+    }
+
+    .footer-1 h1, h6{
+        color: white;
+        text-align: center;
+    }
+}
+
+
+/* tablet */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .tittle{
+        margin: 0px;
+        margin-top: 35px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    section{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section-1{
+        margin-bottom: 8px;
+    }
+    .header1{
+        font-size: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    
+    p{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .influencer{
+        width: 100%;
+        display:block;
+        justify-content: center;
+    }
+
+    .influencer-1{
+        width: 100%;
+        align-items: center;
+    }
+
+    .influencer-1 h1{
+        text-align: center;
+    }
+    .influencer-up{
+        display: block;
+        width: 55%;
+        margin-bottom: 14px;
+        margin-top: 22px;
+        padding-left: 90px;
+    }
+
+    .influencer-up-1{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .influencer-down{
+        display: none;
+    }
+    
+    .button-1{
+        background: #E02C6D;
+        color: white;
+        padding: 10px 24px;
+        font-size: 16px;
+        border: 1px solid white;
+        border-radius: 41px;
+        margin-left: 18px;
+    }
+    
+    .fa-arrow-right{
+        padding-left: 8px;
+    }
+
+    .popular-collection{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        width: 100%;
+        height: 211px;
+        background-color: #0A0826;
+        background-size: cover;
+    }
+
+    .footer-1{
+        padding-top: 50px;
+        margin-left: 68px;
+        margin-right: 68px;
+    }
+
+    .footer-1 h1, h6{
+        color: white;
+        text-align: center;
+    }
+}
